@@ -31,7 +31,7 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: 'dist/orders'
+    rootFolderOrFile: 'dist/mf-orders'
     includeRootFolder: false
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/build.zip'
